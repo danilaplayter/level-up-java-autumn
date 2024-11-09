@@ -17,7 +17,10 @@ public class ExchangeVariableValues {
         b = a ;
         a = c;
 
-        System.out.println("A = " + a + ". B = " + b + "." ); // DON'T TOUCH.
+        // DON'T TOUCH.
+        
+        System.out.println("A = " + a + ". B = " + b + "." ); 
+        
     }
 
 }
