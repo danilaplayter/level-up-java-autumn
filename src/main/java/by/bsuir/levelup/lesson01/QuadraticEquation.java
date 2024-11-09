@@ -30,6 +30,18 @@ public class QuadraticEquation {
         /*
         Implement the algorithm for solving a quadratic equation here.
          */
+
+        int d = b*b - 4 * a * c;
+         if (d == 0){
+             System.out.println("There is one root = " + (-b/(2*a)) + " .");
+         }
+         if(d > 0){
+             System.out.println("There are two roots.\n root_1 = " + ((-b - sqrt(d))/(2*a)) + "\n root_2 = " + ((-b + sqrt(d))/(2*a)));
+         }
+         if(d < 0){
+             System.out.println("There are no roots.");
+         }
+        
     }
 
 }
